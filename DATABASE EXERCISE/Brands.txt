@@ -1,0 +1,16 @@
+CREATE TABLE BRANDS(
+	BrandId INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	BrandName nvarchar(100) NOT NULL,
+	CategoryID INT NOT NULL FOREIGN KEY REFERENCES Categories(ID)
+)
+
+INSERT INTO BRANDS(BrandName,CategoryID)
+VALUES
+('Apple',1),
+('Samsung',2),
+('Phillips',2),
+('Nike',3),
+('Tissot',4),
+('Tiffany & GO',5),
+('Hot wheels',6),
+('Vivo',7)

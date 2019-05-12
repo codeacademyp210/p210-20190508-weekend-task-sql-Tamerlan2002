@@ -1,0 +1,17 @@
+CREATE DATABASE USERSPRODUCTSORDERS
+
+--CREATE TABLE USERS(
+--	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+--	FirstName nvarchar(50) NOT NULL,
+--	LastName nvarchar(50) NOT NULL,
+--	UserName nvarchar(100) NOT NULL UNIQUE,
+--	Email varchar(200) NOT NULL UNIQUE,
+--	Password nvarchar(50) NOT NULL
+--)
+
+
+INSERT INTO USERS(FirstName,LastName,UserName,Email,Password)
+Values
+('Marry','McCanister','Marry242','MarryMc@gmail.com','Marry1234'),
+('Linda','Jhones','Linda242','LindaJh@gmail.com','Linda1234'),
+('Robert','Andrew','Robert242','RobertA@gmail.com','Robert1234')

@@ -1,0 +1,18 @@
+--CREATE TABLE ORDERPR(
+--	OrderId INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+--	UserId INT FOREIGN KEY REFERENCES USERS(ID),
+--	ProductId INT NOT NULL,
+--	PRCount INT NOT NULL,
+--	OrderDate date NOT NULL
+--)
+
+--INSERT INTO ORDERPR(UserId,ProductId,PRCount,OrderDate)
+--VALUES
+--(1,1,2,22/05/2019),
+--(2,2,1,12/02/2019),
+--(3,3,1,05/02/2019),
+--(4,4,1,10/03/2019),
+--(1,5,1,10/03/2019),
+--(2,6,1,10/03/2019),
+--(3,7,1,12/02/2019),
+--(4,8,1,08/05/2019)

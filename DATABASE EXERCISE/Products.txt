@@ -1,0 +1,20 @@
+--CREATE TABLE PRODUCTS(
+--	ID INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+--	ProductName nvarchar(255) NOT NULL,
+--	Price Decimal NOT NULL,
+--    CategoryID INT NOT NULL FOREIGN KEY REFERENCES Categories(ID),
+--	BrandID INT NOT NULL FOREIGN KEY REFERENCES BRANDS(BrandId),
+--	Color nvarchar(50),
+--	Barcode NVARCHAR(50)
+--)
+
+--Insert INTO PRODUCTS(ProductName,Price,CategoryID,BrandID,Color,Barcode)
+--Values
+--('Apple Laptop',1200,1,1,'grey','AAJHF23JDJ23'),
+--('Samsung Tablet',300,2,2,'black','AAJHF23JDJ23'),
+--('Phillips Television',1000,2,3,'black','AAJHF23JDJ23'),
+--('Nike Shoes',50,3,4,'green','AAJHF23JDJ23'),
+--('Tissot Man Watch',600,4,5,'silver','AAJHF23JDJ23'),
+--('Tiffany & GO Rings',500,5,6,'golden','AAJHF23JDJ23'),
+--('Hot wheels cars',20,6,7,'red and light blue','AAJHF23JDJ23'),
+--('Vivo smartphone',250,7,8,'grey','AAJHF23JDJ23

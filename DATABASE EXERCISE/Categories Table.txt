@@ -1,0 +1,14 @@
+--Create Table Categories(
+--	ID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+--	Name nvarchar(100)
+--)
+
+--INSERT INTO Categories(Name)
+--Values
+--('Technology'),
+--('Electronics'),
+--('Shoes'),
+--('Watches'),
+--('Jewellery'),
+--('Toys and dolls'),
+--('Smartphones')
